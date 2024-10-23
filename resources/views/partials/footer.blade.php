@@ -141,7 +141,7 @@
                 <ul>
                     <li><a href="#">privacy policy</a></li>
                     <li><a href="/booking-policy">booking policy</a></li>
-                    <li><a href="/tuition-delivery-policy">Tutor Delivery Policy</a></li>
+                    <li><a href="/tuition-delivery-policy">Tuition Delivery Policy</a></li>
                     <li><a href="#">Dressing Policy</a></li>
                     <li><a href="/booking-policy/#cancellation">Cancellation Policy</a></li>
                     <li><a href="#">payment options</a></li>
