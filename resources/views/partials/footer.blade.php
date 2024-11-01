@@ -26,7 +26,7 @@
 
     .footer {
         background-color: #24262b;
-        padding: 70px 0;
+        padding: 50px 0;
     }
 
     .footer-col {
@@ -106,9 +106,7 @@
             /* text-align: center */
         }
 
-        .footer-col h4::before {
-            
-        }
+        .footer-col h4::before {}
     }
 
     .footer-col h4::before {
@@ -120,12 +118,8 @@
         height: 2px;
         box-sizing: border-box;
         width: 50px;
-  
     }
 </style>
-
-
-
 <footer class="footer">
     <div class="container">
         <div class="row">
@@ -139,12 +133,13 @@
             <div class="footer-col">
                 <h4>Our policies</h4>
                 <ul>
-                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="/terms">Terms</a></li>
+                    <li><a href="/privacy-policy">privacy policy</a></li>
                     <li><a href="/booking-policy">booking policy</a></li>
                     <li><a href="/tuition-delivery-policy">Tuition Delivery Policy</a></li>
-                    <li><a href="#">Dressing Policy</a></li>
+                    <li><a href="/dressing-policy">Dressing Policy</a></li>
                     <li><a href="/booking-policy/#cancellation">Cancellation Policy</a></li>
-                    <li><a href="#">payment options</a></li>
+                    {{-- <li><a href="#">payment options</a></li> --}}
                 </ul>
             </div>
             <div class="footer-col">
@@ -167,20 +162,32 @@
             </div>
         </div>
     </div>
-
-    <div class="container px-5 py-24 mx-auto flex flex-wrap items-center justify-center">
-        <div class="xl:w-1/4 items-center justify-center w-full mb-12 text-center">
-
-            <p class="text-gray-400 bg-white-100 body-font" style="font-size: 0.875rem; margin-bottom: 1.5rem; padding: 1.5rem 2rem;">
-                © 2024 OA Tutors. All rights reserved.
-                <br>
+    <div class="container py-10"></div>
+    <div class="container px-10 py-0 mx-auto flex flex-wrap items-center justify-center">
+        <div class=" ">
+            <p class="text-gray-400 bg-white-100 body-font" style="font-size: 0.875rem;">
+                © 2024 OA Tutors. All rights reserved.</p>
+            <div class="text-gray-400 bg-white-100 body-font text-center" style="font-size: 0.875rem;">
                 Designed by
                 <a href="https://olaarowolo.com"
                     style="color: rgb(184, 184, 184); text-decoration: none; transition: color 0.3s ease;">Olasunkanmi
                     Arowolo</a>
-
+                <div>
+                    <a href="https://github.com/olaarowolo">
+                        <iconify-icon icon="mdi:github" width="1.2rem" height="1.2rem"></iconify-icon>
+                    </a>
+                    <a href="">
+                        <iconify-icon icon="lineicons:website" width="1.2em" height="1.2em"></iconify-icon>
+                    </a>
+                    <a href="">
+                        <iconify-icon icon="line-md:linkedin" width="1.2em" height="1.2em"></iconify-icon>
+                    </a>
+                    <a href="">
+                        <iconify-icon icon="quill:phone" width="1.2em" height="1.2em"></iconify-icon>
+                    </a>
+                </div>
+            </div>
             </p>
         </div>
     </div>
-
 </footer>

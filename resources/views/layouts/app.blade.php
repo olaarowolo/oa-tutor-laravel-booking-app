@@ -7,7 +7,7 @@
     <body>
         @yield('content')
         @include('components.why-us')
-        
+        @include('components.scripts')
         @include('partials.footer')
     </body>
 </main>

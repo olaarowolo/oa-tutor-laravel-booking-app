@@ -13,7 +13,7 @@
                     <div class="flex flex-col items-center">
                         <h3 class="text-yellow-500 text-s font-medium title-font"> Special Exams/Transfer Test </h3>
 
-                        <h2><a href="/ElevenPlus.html" class="text-blue-500 hover:underline">Read offer details</a></h2>
+                        <h2><a href="{{url ('/eleven-plus')}}" class="text-blue-500 hover:underline">Read offer details</a></h2>
                         </h2>
                         <h2 class="text-lg text-gray-900 font-medium title-font mb-0"> 11 plus (11+) Lessons </h2>
  
@@ -33,7 +33,7 @@
                         alt="content" />
                     <div class="flex flex-col items-center">
                         <h3 class="text-yellow-500 text-s font-medium title-font"> Certification Exams </h3>
-                        <h2><a href="/KeyStagesOffer.html" class="text-blue-500 hover:underline">Read offer details</a>
+                        <h2><a href="{{url ('/key-stage-3')}}" class="text-blue-500 hover:underline">Read offer details</a>
                         </h2>
                         <h2 class="text-lg text-gray-900 font-medium title-font mb-4"> GCSE Lessons </h2>
  
@@ -71,7 +71,7 @@
                     <div class="flex flex-col items-center">
                         <h3 class="text-yellow-500 text-s font-medium title-font"> Logic & Numeracy Skills </h3>
                         <h2 class="text-lg text-gray-900 font-medium title-font mb-4"> Maths/Furthermaths </h2>
-                        <h2><a href="/KeyStagesOffer.html" class="text-blue-500 hover:underline">Read offer details</a>
+                        <h2><a href="{{url('key-stage-3')}}" class="text-blue-500 hover:underline">Read offer details</a>
                         </h2>
  
                         <button
@@ -90,7 +90,7 @@
                     <div class="flex flex-col items-center">
                         <h3 class="text-yellow-500 text-s font-medium title-font"> Communication</h3>
                         <h2 class="text-lg text-gray-900 font-medium title-font mb-4"> English </h2>
-                        <h2><a href="/KeyStagesOffer.html" class="text-blue-500 hover:underline">Read offer
+                        <h2><a href="{{url ('key-stage-2')}}" class="text-blue-500 hover:underline">Read offer details</
                                 details</a></h2>
 
  
@@ -213,7 +213,7 @@
                     <div class="flex flex-col items-center">
                         <h3 class="text-yellow-500 text-s font-medium title-font"> HTML/CSS </h3>
                         <h2 class="text-lg text-gray-900 font-medium title-font mb-4"> Website Development</h2>
-                        <h2><a href="/coding4kids.html" class="text-blue-500 hover:underline">Read offer details</a>
+                        <h2><a href="{{url ('/coding4kids')}}" class="text-blue-500 hover:underline">Read offer details</a>
                         </h2>
 
  
@@ -233,7 +233,7 @@
                     <div class="flex flex-col items-center">
                         <h3 class="text-yellow-500 text-s font-medium title-font"> JavaScript </h3>
                         <h2 class="text-lg text-gray-900 font-medium title-font mb-4"> Website Development </h2>
-                        <h2><a href="/coding4kids.html" class="text-blue-500 hover:underline">Read offer details</a>
+                        <h2><a href="{{url ('/coding4kids')}}" class="text-blue-500 hover:underline">Read offer details</a>
                         </h2>
  
                         <button

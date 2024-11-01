@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+
 
 <head>
     <meta charset="UTF-8" />
@@ -26,10 +25,8 @@
     <meta name="twitter:description"
         content="Unlock your child's potential with personalised one-to-one lessons. We are offering you a one-stop path to success." />
     <meta name="twitter:image" content="assets/favicon_io/oa-tutors-logo-yellow.png" />
+
     <!-- CSS Links -->
-    <link rel="stylesheet" href="assets/css/comingsoon.css" />
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
@@ -45,9 +42,3 @@
         })();
     </script>
 </head>
-
-<body>
-    <!-- Body content goes here -->
-</body>
-
-</html>
