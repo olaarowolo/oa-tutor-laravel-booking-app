@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@include('components.head')
+
 @section('title', 'Key Stage 1 (KS1)')
 
 @section('content')

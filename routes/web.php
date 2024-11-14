@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\PolicyController;
+
+
 Route::get('/', function () {
     return view('home');
 });
@@ -26,8 +29,8 @@ Route::get('key-stage-3', function () {
     return   view(view: 'key-stage-3');
 });
 
-Route::get('our-policies', function () {
-    return   view(view: 'docs/our-policies');
+Route::get('policies', function () {
+    return   view(view: 'docs/policies');
 });
 Route::get('booking-policy', function () {
     return   view(view: 'docs/booking-policy');
@@ -59,4 +62,12 @@ Route::get('blog', function () {
 Route::get('/blog/national-curriculum', function () {
     return view('blog.national_curriculum');
 });
+
+// routes/web.php
+Route::get('/join-oa-tutors', function () {
+    return view('docs.join-oa-tutors');
+});
+
+
+Route::get('/policies', [PolicyController::class, 'showPolicies']);
 

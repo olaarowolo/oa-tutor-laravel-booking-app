@@ -145,9 +145,9 @@
             <div class="footer-col">
                 <h4>Become a tutor</h4>
                 <ul>
-                    <li><a href="#">How to become a tutor</a></li>
-                    <li><a href="#">Tutor requirements</a></li>
-                    <li><a href="#">Opportunities</a></li>
+                    <li><a href="/join-oa-tutors">How to become a tutor</a></li>
+                    <li><a href="/join-oa-tutors/#tutor-requirements">Tutor requirements</a></li>
+                    {{-- <li><a href="#">Opportunities</a></li> --}}
                 </ul>
             </div>
             <div class="footer-col">

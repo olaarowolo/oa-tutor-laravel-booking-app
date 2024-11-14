@@ -1,4 +1,7 @@
 @extends('layouts.app')
+
+@include('components.head')
+
 @section('title', 'Booking Policy')
 @section('content')
     <section class="px-5 py-5 mx-auto flex flex-wrap items-center justify-center" id="services">

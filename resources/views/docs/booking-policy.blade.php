@@ -1,5 +1,8 @@
 @extends('layouts.app')
 
+@include('components.head')
+
+
 @section('title', 'Booking Policy')
 
 @section('content')
@@ -9,8 +12,7 @@
             <section class="mb-8">
 
                 <h2 class="text-2xl font-bold mb-4">OA Tutors Tuition Booking Policy <a class="fa fa-download"
-                        aria-hidden="true" href="/assets/docs/oa-tutor-booking-policy.pdf"
-                        target="_blank"> </a> </h2>
+                        aria-hidden="true" href="/assets/docs/oa-tutor-booking-policy.pdf" target="_blank"> </a> </h2>
 
                 <p>
                     This policy provides the guidelines for booking tuition sessions at OA Tutors, covering both
@@ -96,7 +98,7 @@
                     sessions, or unforeseen travel issues for in-person sessions), both parties will be notified
                     as soon as possible. Sessions will be rescheduled at no extra cost, or a full refund will be
                     provided if rescheduling is not possible.</p>
-                <div >
+                <div>
                     <p class="text-2xl font-bold mb-4">Download to sign
                         <a class="fa fa-download" aria-hidden="true"
                             href="https://tutor.olaarowolo.com/assets/docs/oa-tutor-booking-policy.pdf" target="_blank">

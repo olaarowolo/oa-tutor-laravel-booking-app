@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@include('components.head')
+
 @section('title', 'Booking Policy')
 
 @section('content')

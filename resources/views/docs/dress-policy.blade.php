@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@include('components.head')
+
 @section('title', 'Booking Policy')
 
 @section('content')
@@ -8,9 +10,8 @@
 
             <section class="mb-8">
 
-                <h2 class="text-2xl font-bold mb-4">OA Tutors Tuition Dress Policy <a class="fa fa-download"
-                        aria-hidden="true" href="/assets/docs/oa-tutor-booking-policy.pdf"
-                        target="_blank"> </a> </h2>
+                <h2 class="text-2xl font-bold mb-4">OA Tutors Tuition Dress Policy <a class="fa fa-download" aria-hidden="true"
+                        href="/assets/docs/oa-tutor-booking-policy.pdf" target="_blank"> </a> </h2>
 
                 <p>
                     Dress Policy Starts
@@ -21,14 +22,14 @@
                     <li>List 1.</li>
                     <li>List 2.</li>
                     <li>List 3.</li>
-                    
+
                 </ul>
 
-                
-                <div >
+
+                <div>
                     <p class="text-2xl font-bold mb-4">Download to sign
-                        <a class="fa fa-download" aria-hidden="true"
-                            href="assets/docs/oa-tutor-dressing-policy.pdf" target="_blank">
+                        <a class="fa fa-download" aria-hidden="true" href="assets/docs/oa-tutor-dressing-policy.pdf"
+                            target="_blank">
                         </a>
                     </p>
                 </div>
