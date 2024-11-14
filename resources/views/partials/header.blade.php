@@ -1,20 +1,3 @@
-<header class="header" id="header" style="display: flex; justify-content: center;">
-    <nav style="display: flex; justify-content: center;">
-        <!-- Light Theme Logo --><a href="/" style="display: flex; justify-content: center;"><img
-                alt="OA Tutors Logo" id="light-logo" src="assets/img/oa-tutors-logo-black.png"
-                style="width: 8rem; height: 8rem;" /> </a>
-    </nav>
-</header>
-    <!-- Boostrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
-    </script><!-- Coming Soon JS with timer-->
-
-    <script src="assets/js/comingsoon.js"></script>
-
-@include('partials.navbar')
-
-
 <!--==================== MAIN ====================-->
     <!-- About Section Title and Subtitle -->
     <section class="text-gray-600 body-font" id="header">

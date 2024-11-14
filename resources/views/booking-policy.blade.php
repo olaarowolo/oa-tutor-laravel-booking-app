@@ -39,6 +39,9 @@
                     <li>In-person sessions may incur additional travel costs, depending on the location. These
                         will
                         be discussed and agreed upon at the time of booking.</li>
+                    <li>All fees are subject to change. Any increase in tuition fees will be communicated at least 30 days
+                        in advance, allowing families adequate time to prepare.</li>
+
                 </ul>
 
                 <h2 id="cancellation" class="text-2xl font-bold mb-4">3. Cancellation and Rescheduling Policy</h2>
@@ -96,7 +99,15 @@
                     sessions, or unforeseen travel issues for in-person sessions), both parties will be notified
                     as soon as possible. Sessions will be rescheduled at no extra cost, or a full refund will be
                     provided if rescheduling is not possible.</p>
-                <div >
+                <h2 class="text-2xl font-bold mb-4">7. End of Policy Statement:</h2>
+                <p>This policy has been designed to ensure transparency, fairness, and clear communication with all clients.
+                    OA Tutors is committed to upholding industry best practices and complying with relevant UK consumer
+                    protection guidelines. Any updates or changes to this policy, including adjustments to fees or services,
+                    will be communicated with a minimum of 8 weeks' notice to provide sufficient time for clients to review
+                    and discuss these changes. We aim to ensure that any fee adjustments are communicated in a manner that
+                    is fair, transparent, and consistent with client expectations. For any questions or clarifications,
+                    please feel free to contact us.</p>
+                <div>
                     <p class="text-2xl font-bold mb-4">Download to sign
                         <a class="fa fa-download" aria-hidden="true"
                             href="https://tutor.olaarowolo.com/assets/docs/oa-tutor-booking-policy.pdf" target="_blank">

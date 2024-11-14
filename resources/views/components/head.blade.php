@@ -41,4 +41,19 @@
             emailjs.init('gF3M_-jS8KuvoCpV4');
         })();
     </script>
+
+
+
+<link rel="shortcut icon" href="{{ asset('assets/img/blog/favicon.ico') }}" type="image/x-icon">
+<script src="{{ asset('assets/js/blog.js') }}"></script>
+
+<link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+<link rel="stylesheet" href="{{ asset('assets/css/blog.css') }}">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+  rel="stylesheet">
 </head>
+
+

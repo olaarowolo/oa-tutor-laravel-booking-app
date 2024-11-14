@@ -1,4 +1,5 @@
-@extends('layouts.app')
+{{-- @extends('layouts.app') --}}
+@extends('layouts.blog')
 
 @section('title', 'Eleven Plus (11+)')
 
