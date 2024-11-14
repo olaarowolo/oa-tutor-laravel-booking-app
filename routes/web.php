@@ -47,3 +47,16 @@ Route::get('terms', function () {
 Route::get('privacy-policy', function () {
     return   view(view: 'docs/privacy-policy');
 });
+
+
+// BLOG
+// routes/web.php
+Route::get('blog', function () {
+    return view('blog.home');
+});
+
+// routes/web.php
+Route::get('/blog/national-curriculum', function () {
+    return view('blog.national_curriculum');
+});
+
