@@ -12,8 +12,8 @@
 
             </p>
             <div class="btn-group">
-                <a href="#" class="btn btn-primary">Our services</a>
-                <a href="#" class="btn btn-secondary">Contact</a>
+                <a href="/#services" class="btn btn-primary">Our services</a>
+                <a href="tel:+447487397751" class="btn btn-secondary">Contact</a>
             </div>
         </div>
         <div class="right">

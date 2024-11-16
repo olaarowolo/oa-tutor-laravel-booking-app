@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PolicyController;
 use App\Http\Controllers\BookingPolicyController;
+use App\Http\Controllers\NewsletterController;
+
 
 Route::get('/', function () {
     return view('home');
@@ -59,3 +61,7 @@ Route::get('/join-oa-tutors', function () {
     return view('docs.join-oa-tutors');
 });
 Route::get('/policies', [PolicyController::class, 'showPolicies']);
+
+
+// routes/web.php
+Route::post('/subscribe', [NewsletterController::class, 'subscribe'])->name('newsletter.subscribe');

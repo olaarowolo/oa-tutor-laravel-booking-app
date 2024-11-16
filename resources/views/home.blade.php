@@ -3,6 +3,10 @@
 @include('components.head')
 @include('partials.header')
 @section('content')
+<div class="main">
+    <div class="container">
     @include('components.services')
-    @include('components.why-us')
+</div>
+
+</div>
 @endsection
