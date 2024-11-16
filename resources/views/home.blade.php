@@ -1,16 +1,8 @@
-{{-- @extends('layouts.app') --}}
-@extends('layouts.blog')
-
-@section('title', 'Eleven Plus (11+)')
-@include('components.head') 
-{{-- @include('partials.blog.nav') --}}
-{{-- @include('partials.blog.profile') --}}
-
+@extends('layouts.app')
+@section('title', 'OA Tutors')
+@include('components.head')
+@include('partials.header')
 @section('content')
-{{-- @include('components.services') --}}
-
-@include('components.services')
-
-@include('components.why-us')
-
+    @include('components.services')
+    @include('components.why-us')
 @endsection

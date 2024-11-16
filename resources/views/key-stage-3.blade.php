@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @include('components.head')
-
+@include('partials.header')
 @section('title', 'Key Stage 3 (KS3)')
 @section('content')
     <section class="px-5 py-5 mx-auto flex flex-wrap items-center justify-center" id="ks3">

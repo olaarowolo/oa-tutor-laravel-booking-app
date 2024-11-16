@@ -1,7 +1,7 @@
 @extends('layouts.app')
-{{-- @extends('layouts.blog') --}}
-@include('components.head')
 @section('title', 'Coding for Kids')
+@include('components.head')
+@include('partials.header')
 @section('content')
     <section class="px-5 py-5 mx-auto flex flex-wrap items-center justify-center" id="services">
         <main class="max-w-4xl w-full">

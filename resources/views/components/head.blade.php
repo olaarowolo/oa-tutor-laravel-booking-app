@@ -42,18 +42,37 @@
         })();
     </script>
 
-
-
 <link rel="shortcut icon" href="{{ asset('assets/img/blog/favicon.ico') }}" type="image/x-icon">
-<script src="{{ asset('assets/js/blog.js') }}"></script>
-
 <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/blog.css') }}">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
-  rel="stylesheet">
+
+
+
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet">
 </head>
-
-
+<!--
+    - custom js link
+  -->
+<script src="./assets/js/script.js"></script>
+<!--
+    - ionicon link
+  -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>

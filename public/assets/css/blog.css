@@ -347,6 +347,10 @@
     padding-bottom: var(--py);
     text-align: center;
   }
+  .hero2 {
+    background: var(--background-primary);
+  
+  }
   
   .hero .h1 {
     margin-bottom: 1rem;

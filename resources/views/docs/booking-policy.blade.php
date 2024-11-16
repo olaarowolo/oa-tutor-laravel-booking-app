@@ -1,25 +1,18 @@
 @extends('layouts.app')
-
 @include('components.head')
-
-
+@include('partials.header')
 @section('title', 'Booking Policy')
-
 @section('content')
     <section class="px-5 py-5 mx-auto flex flex-wrap items-center justify-center" id="services">
         <main class="max-w-4xl w-full">
-
             <section class="mb-8">
-
                 <h2 class="text-2xl font-bold mb-4">OA Tutors Tuition Booking Policy <a class="fa fa-download"
                         aria-hidden="true" href="/assets/docs/oa-tutor-booking-policy.pdf" target="_blank"> </a> </h2>
-
                 <p>
                     This policy provides the guidelines for booking tuition sessions at OA Tutors, covering both
                     online and in-person sessions. It ensures a smooth, professional experience for students and
                     tutors alike.
                 </p>
-
                 <h2 class="text-2xl font-bold mb-4">1. Booking Process</h2>
                 <ul class="list-disc pl-6 space-y-2">
                     <li>All tuition sessions, whether online or in-person, must be booked through the OA Tutors
@@ -30,7 +23,6 @@
                         been
                         received.</li>
                 </ul>
-
                 <h2 class="text-2xl font-bold mb-4">2. Payment and Fees</h2>
                 <ul class="list-disc pl-6 space-y-2">
                     <li>Full payment is required at the time of booking to secure the session, whether it is
@@ -42,7 +34,6 @@
                         will
                         be discussed and agreed upon at the time of booking.</li>
                 </ul>
-
                 <h2 id="cancellation" class="text-2xl font-bold mb-4">3. Cancellation and Rescheduling Policy</h2>
                 <h3>Cancellation by the Client:</h3>
                 <ul class="list-disc pl-6 space-y-2">
@@ -69,7 +60,6 @@
                     <li>Rescheduling requests made within 48 hours of the session will be treated as
                         cancellations and are subject to the cancellation policy.</li>
                 </ul>
-
                 <h2 class="text-2xl font-bold mb-4">4. Late Arrivals</h2>
                 <ul class="list-disc pl-6 space-y-2">
                     <li>Students who arrive late for their session, whether online or in-person, will still be
@@ -79,20 +69,17 @@
                         arrived or logged in by then, the session will be considered a no-show and charged in
                         full.</li>
                 </ul>
-
                 <h2 class="text-2xl font-bold mb-4">5. Tutor Availability</h2>
                 <p>OA Tutors strives to match students with their preferred tutor, but we cannot guarantee the
                     availability of specific tutors for every session.</p>
                 <p>In cases where a preferred tutor is unavailable, an alternative tutor will be offered, or the
                     session can be rescheduled.</p>
-
                 <h2 class="text-2xl font-bold mb-4">6. Group Bookings</h2>
                 <p>Group sessions (involving more than one student) can be arranged for both online and
                     in-person formats. Pricing may vary depending on the number of participants and session
                     requirements.</p>
                 <p>Group bookings are subject to the same payment, cancellation, and rescheduling policies as
                     individual sessions.</p>
-
                 <h2 class="text-2xl font-bold mb-4">7. Emergency Cancellations</h2>
                 <p>In the event of an emergency (e.g., tutor illness, technical difficulties for online
                     sessions, or unforeseen travel issues for in-person sessions), both parties will be notified
@@ -105,8 +92,6 @@
                         </a>
                     </p>
                 </div>
-
-
             </section>
         </main>
     </section>

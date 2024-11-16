@@ -1,17 +1,11 @@
 <!-- Services Offered -->
-<section class="px-5 py-5 mx-auto flex flex-wrap items-center justify-center" class="text-gray-600 body-font"
+<section class="hero2 px-5 py-5 mx-auto flex flex-wrap items-center justify-center" class="text-gray-600 body-font"
     id="services">
     <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-wrap -m-4">
             <!-- SUBJECTS LISTS -->
-
-
-
-
-
-            <div class="xl:w-2/4 md:w-2/2 p-4 flex items-center justify-center flex flex-wrap items-center justify-center"
+            <div class=" xl:w-2/4 md:w-2/2 p-4 flex items-center justify-center flex flex-wrap items-center justify-center"
                 id="SUBJECTS">
-
                 <div class="blog-card">
                     <div class="blog-card-banner">
                         <img src="./assets/img/11plus.jpeg"
@@ -24,16 +18,11 @@
                         <p class="blog-text">
                             The 11 Plus exam is designed to determine a child's
                             suitability for grammar schools or other selective schools.
-
                             <b> Pass the 11 Plus exam with the skills and attitudes that will take them further.
-
                             </b>
-
                             <a href="{{ url('/eleven-plus') }}" class="text-blue-500 hover:underline">
                                 Read more.</a></h2>
-
                         </p>
-
                         <button class="btn btn-primary">
                             <a href=""
                                 onclick="Calendly.initPopupWidget({url: 'https://calendly.com/olaarowolo/personal-tutor'});return false;"
@@ -41,9 +30,6 @@
                         </button>
                     </div>
                 </div>
-
-
-
                 <div class="blog-card">
                     <div class="blog-card-banner">
                         <img src="./assets/img/eleven-plus.svg" alt="Special Exams/Transfer Test" width="150"
@@ -64,8 +50,6 @@
                         </button>
                     </div>
                 </div>
-
-
             </div>
             <div class="xl:w-2/4 md:w-2/2 p-4 flex items-center justify-center flex flex-wrap items-center justify-center"
                 id="SUBJECTS">
@@ -89,7 +73,6 @@
                         </button>
                     </div>
                 </div>
-
                 <div class="blog-card">
                     <div class="blog-card-banner">
                         <img src="./assets/img/1.svg" alt="Creative Skills" width="150" class="blog-banner-img">
@@ -130,7 +113,6 @@
                         </button>
                     </div>
                 </div>
-
                 <div class="blog-card">
                     <div class="blog-card-banner">
                         <img src="./assets/img/3.svg" alt="Communication" width="150" class="blog-banner-img">
@@ -173,7 +155,6 @@
                         </button>
                     </div>
                 </div>
-
                 <div class="blog-card">
                     <div class="blog-card-banner">
                         <img src="./assets/img/3.svg" alt="Communication" width="150" class="blog-banner-img">
@@ -194,10 +175,8 @@
                     </div>
                 </div>
             </div>
-
             <div
                 class="xl:w-2/4 md:w-2/2 p-4 flex items-center justify-center flex flex-wrap items-center justify-center">
-
                 <div class="blog-card">
                     <div class="blog-card-banner">
                         <img src="./assets/img/4.svg" alt="Audio Editing" width="150" class="blog-banner-img">
@@ -217,7 +196,6 @@
                         </button>
                     </div>
                 </div>
-
                 <div class="blog-card">
                     <div class="blog-card-banner">
                         <img src="./assets/img/9.svg" alt="Video Editing" width="150" class="blog-banner-img">
@@ -238,7 +216,6 @@
                     </div>
                 </div>
             </div>
-
             <div
                 class="xl:w-2/4 md:w-2/2 p-4 flex items-center justify-center flex flex-wrap items-center justify-center">
                 <div class="blog-card">
@@ -260,8 +237,6 @@
                         </button>
                     </div>
                 </div>
-
-
                 <div class="blog-card">
                     <div class="blog-card-banner">
                         <img src="./assets/img/7.svg" alt="Digital Media" width="150" class="blog-banner-img">
@@ -282,7 +257,6 @@
                     </div>
                 </div>
             </div>
-
             <div
                 class="xl:w-2/4 md:w-2/2 p-4 flex items-center justify-center flex flex-wrap items-center justify-center">
                 <div class="blog-card">
@@ -307,10 +281,6 @@
                         </button>
                     </div>
                 </div>
-
-
-
-
                 <div class="blog-card">
                     <div class="blog-card-banner">
                         <img src="./assets/img/9.svg" alt="Video Editing" width="150" class="blog-banner-img">
@@ -331,10 +301,8 @@
                     </div>
                 </div>
             </div>
-
             <div
                 class="xl:w-2/4 md:w-2/2 p-4 flex items-center justify-center flex flex-wrap items-center justify-center">
-
                 <div class="blog-card">
                     <div class="blog-card-banner">
                         <img src="./assets/img/10.svg" alt="Website Development" width="150"
@@ -355,8 +323,6 @@
                         </button>
                     </div>
                 </div>
-
-
                 <div class="blog-card">
                     <div class="blog-card-banner">
                         <img src="./assets/img/11.svg" alt="JavaScript" width="150" class="blog-banner-img">
@@ -377,14 +343,8 @@
                     </div>
                 </div>
             </div>
-
-
-
-
-
             <div
                 class="xl:w-2/4 md:w-1/2 p-4 flex items-center justify-center flex flex-wrap items-center justify-center">
-
                 <div class="blog-card">
                     <div class="blog-card-banner">
                         <img src="./assets/img/12.svg" alt="Photography" width="150" class="blog-banner-img">
@@ -404,8 +364,8 @@
                         </button>
                     </div>
                 </div>
-                </div>
-                <!--  END OF SUBJECTS LISTS -->
             </div>
+            <!--  END OF SUBJECTS LISTS -->
         </div>
+    </div>
 </section>

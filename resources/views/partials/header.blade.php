@@ -1,27 +1,106 @@
-<!--==================== MAIN ====================-->
-    <!-- About Section Title and Subtitle -->
-    <section class="text-gray-600 body-font" id="header">
-        <div class="px-5 py-5 mx-auto flex flex-wrap items-center justify-center">
-            <div>
-                <div style="text-align: center;">
-                    <h2 class="section__title">
-                        <b>Unlock your child's potential</b> <br>
-                        <i>with personalised one-to-one lessons</i>
-                    </h2>
-                    <h2 class="section__title">
-                        We are offering you a one-stop path to success<span class="hidden lg:inline-block"></span>
-                    </h2>
-                    <div>* * *</div>
+<header>
+    <div class="container">
+        <nav class="navbar">
+            <a href="/">
+                <img src="{{ asset('assets/img/oa-tutors-logo-black.png') }}" alt="OA Tutors logo" style="width: 8rem; height: 8rem;" class="logo-light">
+                <img src="{{ asset('assets/img/oa-tutors-logo-white.png') }}" alt="OA Tutors logo" style="width: 8rem; height: 8rem;" class="logo-dark">
+            </a>
+            <div class="btn-group">
+                <button class="theme-btn theme-btn-mobile light">
+                    <ion-icon name="moon" class="moon"></ion-icon>
+                    <ion-icon name="sunny" class="sun"></ion-icon>
+                </button>
+                <button class="nav-menu-btn">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </button>
+            </div>
+            <div class="flex-wrapper">
+                <ul class="desktop-nav">
+                    <li>
+                        <a href="/" class="nav-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="/eleven-plus" class="nav-link">11+</a>
+                    </li>
+                    <li>
+                        <a href="/key-stage-1" class="nav-link">KS-1</a>
+                    </li>
+                    <li>
+                        <a href="/key-stage-2" class="nav-link">KS-2</a>
+                    </li>
+                    <li>
+                        <a href="/key-stage-3" class="nav-link">KS-3</a>
+                    </li>
+                    <li>
+                        <a href="/coding4kids" class="nav-link">Coding4Kids</a>
+                    </li>
+                    <li>
+                        <a href="/booking-policy" class="nav-link">Our Policies</a>
+                    </li>
+                    {{-- <li>
+                        <a href="/blog" class="nav-link">Blog</a>
+                    </li> --}}
+                    {{-- <li>
+                        <a href="#" class="nav-link">Contact</a>
+                    </li> --}}
+                </ul>
+                <button class="theme-btn theme-btn-desktop light">
+                    <ion-icon name="moon" class="moon"></ion-icon>
+                    <ion-icon name="sunny" class="sun"></ion-icon>
+                </button>
+            </div>
+            <div class="mobile-nav">
+                <button class="nav-close-btn">
+                    <ion-icon name="close-outline"></ion-icon>
+                </button>
+                <div class="wrapper">
+                    <p class="h3 nav-title">Main Menu</p>
+                    <ul>
+                       <li class="nav-item">
+                            <a href="/" class="nav-link">Home</a>
+                        </li>
+                       <li class="nav-item">
+                            <a href="/eleven-plus" class="nav-link">11+</a>
+                        </li>
+                       <li class="nav-item">
+                            <a href="/key-stage-1" class="nav-link">KS-1</a>
+                        </li>
+                       <li class="nav-item">
+                            <a href="/key-stage-2" class="nav-link">KS-2</a>
+                        </li>
+                       <li class="nav-item">
+                            <a href="/key-stage-3" class="nav-link">KS-3</a>
+                        </li>
+                       <li class="nav-item">
+                            <a href="/coding4kids" class="nav-link">Coding4Kids</a>
+                        </li>
+                       <li class="nav-item">
+                            <a href="/booking-policy" class="nav-link">Our Policies</a>
+                        </li>
+                       {{-- <li class="nav-item">
+                            <a href="/blog" class="nav-link">Blog</a>
+                        </li> --}}
+                       {{-- <li class="nav-item">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li> --}}
+
+                    </ul>
                 </div>
-                <div class="flex justify-center">
-                    <button
-                        class="inline-flex text-white bg-yellow-400 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-500 rounded text-lg">
-                        <a href="/#services">Book a session </button>
-                    </a>
-                    <!--<button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-200 rounded text-lg"> Learn More </button>-->
+                <div>
+                    <p class="h3 nav-title">Topics</p>
+                    <ul>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Database</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Accessibility</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Web Performance</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>    
-
-        
-    </section>
+        </nav>
+    </div>
+</header>
