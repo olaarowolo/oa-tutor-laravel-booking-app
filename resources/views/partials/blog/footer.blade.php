@@ -126,8 +126,8 @@
             <div class="footer-col">
                 <h4>OA Tutors</h4>
                 <ul>
-                    <li><a href="#">about us</a></li>
-                    <li><a href="#">our services</a></li>
+                    <li><a href="/about">about us</a></li>
+                    <li><a href="/#services">our services</a></li>
                 </ul>
             </div>
             <div class="footer-col">

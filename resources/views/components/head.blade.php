@@ -1,14 +1,12 @@
-
-
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OA Tutors</title>
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/oa-tutors-logo-yellow.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/oa-tutors-logo-yellow.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/oa-tutors-logo-yellow.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/oa-tutors-logo-white.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/oa-tutors-logo-white.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/oa-tutors-logo-white.png" />
     <!-- Meta Tags -->
     <meta name="description"
         content="Unlock your child's potential with personalised one-to-one lessons. We are offering you a one-stop path to success." />
@@ -24,7 +22,7 @@
     <meta name="twitter:title" content="OA Tutors 📚" />
     <meta name="twitter:description"
         content="Unlock your child's potential with personalised one-to-one lessons. We are offering you a one-stop path to success." />
-    <meta name="twitter:image" content="assets/favicon_io/oa-tutors-logo-yellow.png" />
+    <meta name="twitter:image" content="assets/favicon_io/oa-tutors-logo-white.png" />
 
     <!-- CSS Links -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
@@ -42,37 +40,20 @@
         })();
     </script>
 
-<link rel="shortcut icon" href="{{ asset('assets/img/blog/favicon.ico') }}" type="image/x-icon">
-<link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
-<link rel="stylesheet" href="{{ asset('assets/css/blog.css') }}">
+    <link rel="shortcut icon" href="{{ asset('assets/img/blog/oa-tutors-logo-white.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/blog.css') }}">
 
 
 
-
-
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 </head>
-<!--
-    - custom js link
-  -->
+
 <script src="./assets/js/script.js"></script>
-<!--
-    - ionicon link
-  -->
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>

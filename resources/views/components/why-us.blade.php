@@ -1,5 +1,5 @@
 <section class="text-gray-600 body-font">
-    <div class="px-5 py-24 mx-auto flex flex-wrap items-center justify-center">
+    <div class="px-2 py-2 mx-auto flex flex-wrap items-center justify-center">
         <div class="xl:w-2/4 w-full mb-12 text-center">
             <h1 class="title-font font-medium text-3xl mb-4 text-gray-900">Why Us?</h1>
             <p class="text-base leading-relaxed">Discover the benefits of expert instruction, tailored lessons, and affordable rates.</p>

@@ -1,15 +1,16 @@
 <!-- Services Offered -->
 <section class="hero2 px-5 py-5 mx-auto flex flex-wrap items-center justify-center" class="text-gray-600 body-font"
     id="services">
-    <div class="px-5 py-24 mx-auto">
+    <div class="px-5 py-10 mx-auto">
         <div class="flex flex-wrap -m-4">
             <!-- SUBJECTS LISTS -->
+
             <div class="blog xl:w-4/4 md:w-2/2" id="services">
                 <div class="blog-card-group">
                     <div class="blog-card">
                         <div class="blog-card-banner">
                             <img src="./assets/img/11plus.jpeg"
-                                alt="Building a Restful CRUD API with Node JS, Express, and MongoDB" width="150"
+                                alt=" " width="150"
                                 class="blog-banner-img">
                         </div>
                         <div class="blog-content-wrapper">
@@ -32,7 +33,7 @@
                     </div>
                     <div class="blog-card">
                         <div class="blog-card-banner">
-                            <img src="./assets/img/eleven-plus.svg" alt="Special Exams/Transfer Test" width="150"
+                            <img src="./assets/img/11plus.jpeg" alt="Special Exams/Transfer Test" width="150"
                                 class="blog-banner-img">
                         </div>
                         <div class="blog-content-wrapper">

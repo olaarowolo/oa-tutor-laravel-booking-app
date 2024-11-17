@@ -5,7 +5,7 @@
 <body class="light-theme">
     @include('partials.blog.nav')
     <main>
-        @include('partials.blog.profile')
+        @include('components.slider')
         @yield('content')
         @include('components.scripts')
         @include('partials.blog.footer')

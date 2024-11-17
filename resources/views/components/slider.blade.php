@@ -3,7 +3,7 @@
         <div class="left">
             <h1 class="h1">
                 Hi there!, <br>
-                You're welcome to  <br> <b>OA Tutors</b>.
+                You're welcome to  <br> <b>OA Tutors</b>
                 <br> <span class="h2"> We're here to help you unlock your child's potential.</span>
             </h1>
             <p class="h3">
